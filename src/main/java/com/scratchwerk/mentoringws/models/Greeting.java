@@ -1,4 +1,4 @@
-package hello;
+package com.scratchwerk.mentoringws.models;
 
 public class Greeting {
 
