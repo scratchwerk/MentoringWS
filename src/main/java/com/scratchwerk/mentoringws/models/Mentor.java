@@ -1,11 +1,14 @@
 package com.scratchwerk.mentoringws.models;
 
+import java.util.ArrayList;
+
 public class Mentor {
 
 	private long id;
 	private String firstName;
 	private String lastName;
 	
+	private ArrayList students;
 	
 	
 	
@@ -33,6 +36,14 @@ public class Mentor {
 	}
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
+	}
+
+	public ArrayList getStudents() {
+		return students;
+	}
+
+	public void setStudents(ArrayList students) {
+		this.students = students;
 	}
 	
 	
